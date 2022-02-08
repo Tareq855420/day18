@@ -1,0 +1,14 @@
+{
+  "name": "day18/day18",
+  "type":  "project",
+  "description": "This is just a simple project",
+  "license": "",
+  "keywords": [],
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "app//"
+    }
+  }
+}
