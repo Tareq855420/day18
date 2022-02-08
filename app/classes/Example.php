@@ -39,30 +39,35 @@ class Example
             ]
 
         ];
-        foreach ($this->data as $item)
-        {
-            if(is_array($item))
-            {
-                foreach ($item as $value)
-                {
-                    if (is_array($value))
-                    {
-                        foreach ($value as $v_value)
-                        {
-                            echo $v_value,' ';
-                        }
-                        echo '<br/>';
-                    }
-                    else
-                    {
-                        echo $value;
+//        foreach ($this->data as $item)
+//        {
+//            if(is_array($item))
+//            {
+//                foreach ($item as $value)
+//                {
+//                    if (is_array($value))
+//                    {
+//                        foreach ($value as $v_value)
+//                        {
+//                            echo $v_value,' ';
+//                        }
+//                        echo '<br/>';
+//                    }
+//                    else
+//                    {
+//                        echo $value;
+//
+//                    }
+//                }
+//            }
+//            else{
+//                echo $item;
+//            }
+//        }
+//        echo  '<pre>';
+////        print_r($this->data);
+//        var_dump($this->data);
 
-                    }
-                }
-            }
-            else{
-                echo $item;
-            }
-        }
+
     }
 }
